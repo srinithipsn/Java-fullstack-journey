@@ -1,24 +1,14 @@
-import java.util.Scanner;
+ Java Full Stack Journey 
 
-public class Calculator {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+This repository contains my learning journey in Java Full Stack Development.
 
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+Topics
+- Core Java
+- DSA
+- SQL
+- Spring Boot
+- React
+- Projects
 
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
-
-        System.out.println("Addition: " + (a + b));
-        System.out.println("Subtraction: " + (a - b));
-        System.out.println("Multiplication: " + (a * b));
-
-        if (b != 0)
-            System.out.println("Division: " + (a / b));
-        else
-            System.out.println("Cannot divide by zero");
-
-        sc.close();
-    }
-}
+ Goal
+To become a Java Full Stack Developer and build industry-ready projects.
